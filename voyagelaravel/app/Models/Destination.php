@@ -10,6 +10,6 @@ class Destination extends Model
     use HasFactory;
 
     public function pays(){
-        return $this->belongsTo(Pay::class);
+        return $this->belongsTo(Pays::class);
     }
 }
